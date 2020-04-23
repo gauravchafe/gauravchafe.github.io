@@ -4,9 +4,9 @@ repository: Git repository where your resume will be hosted, only required if yo
 
 # Personal info
 name: Gaurav Chafe
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
+title: Marketing Automation Enthusiast
+# email: Your email (optional)
+# phone: Your phone number (optional)
 website: https://gauravchafe.github.io/
 
 # Dark Mode (true/false/never)
@@ -28,10 +28,10 @@ linkedin_username: gauravchafe
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# #additional_links:
+# #- title: Link name
+  #icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  #url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,7 +46,8 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  An avid enthusiast of Marketing Automation with good experience of Salesforce and Pardot (Marketing Automation) end to end implementation and support. Enabling customers towards the 4th Industrial revolution of Digital transformation through automation of sales and marketing teams for high-performance, scalable adaption, and long-term success.
+  I am most skilled in <mark>Salesforce</mark>, <mark>Pardot</mark>, <mark>Websites</mark>, <mark>SEO</mark>, <mark>Adwords</mark>, <mark>Analytics</mark>
 
   You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
     - Lists
