@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Sample Post with Markdown
-subtitle : How markdown is displayed as html
-tags: [HTML, Markdown]
-author: Nayeong Kim
+title: Pardot form handler spam protection.
+subtitle : Implement Honeypot technique for spam protection in Pardot 
+tags: [Honeypot, Pardot]
+author: Gaurav Chafe
 comments : True
 ---
 
