@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Sample Post with Grape-Theme style
-subtitle : How markdown is displayed as html
-tags: [HTML, Markdown]
+title: Web-to-lead Honeypot Spam protection
+subtitle : How to block spam in in Web-to-lead forms using Honeypot
+tags: [Salesforce, Web-to-Lead, Web-to-Case, Honeypot]
 author: Nayeong Kim
 comments : False
 ---
