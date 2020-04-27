@@ -1,4 +1,4 @@
-# Site Settings
+ # Site Settings
 baseurl: ""
 url : "https://gauravchafe.github.io"
 
@@ -15,10 +15,19 @@ theme_settings :
     experience :
       - start : 2017-05-03
         end : 2018-05-06
-        experience : company name, title
+        experience : Tranzevo, Senior Consultant
     skills : 
+      - skill : Salesforce Pardot
+        value : 85  # Percent value
+      - skill : Salesforce Sales Cloud
+        value : 55  # Percent value
+      - skill : Salesforce Service Cloud
+        value : 35  # Percent value
+      - skill : Salesforce Community Cloud
+        value : 75  # Percent value
       - skill : HTML5 & CSS
         value : 85  # Percent value
+      
         
   # Icons
   icons :
