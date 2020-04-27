@@ -2,6 +2,9 @@ header{
     margin-bottom: 60px;
     @extend %page-padding;
     nav{
+        .logo{
+            text-align: left;
+        }
         ul{
             li{
                 position: relative;
@@ -43,6 +46,9 @@ header{
                 -moz-transition: width 350ms ease-in-out; 
 
             }
+        }
+        .text-right{
+            text-align: right
         }
         
     }
