@@ -56,3 +56,5 @@ sass:
 gems: [jekyll-paginate]
 bootstrap:
   assets: true
+
+theme: jekyll-theme-cayman
