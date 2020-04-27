@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pardot form handler spam protection.
-subtitle : Implement Honeypot technique for spam protection in Pardot 
+title: Pardot Form handler spam protection
+subtitle : Implement Honeypot technique for spam protection in Pardot Form handlers
 tags: [Honeypot, Pardot]
 author: Gaurav Chafe
 comments : True
