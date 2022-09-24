@@ -1,0 +1,10 @@
+.slds-brand-band{
+    position: relative;
+    top:75px;
+}
+.layoutContent{
+    top:90px;
+    height: calc(100% - 90px);
+    position: relative;
+    padding: 10px;
+}
