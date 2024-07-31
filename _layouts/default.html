@@ -45,32 +45,44 @@ ga('send', 'pageview');
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+<nav class="navbar navbar-expand-lg fixed-top " aria-label="Main navigation">
     <div class="container-fluid">
       <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
       <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
   
-      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="navbar-collapse offcanvas-collapse" id="mainNavbar">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mb-2 mb-lg-0">
             {% if page.url == "/" %}
-            <li class="nav-item active">
+            <li class="nav-item active" aria-current="page" >
             {% else %}
             <li class="nav-item">
             {% endif %}
             <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
             </li>
 
+            {% if page.url == "/" %}
+            <li class="nav-item active" aria-current="page" >
+            {% else %}
             <li class="nav-item">
+            {% endif %}
             <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
             </li>
 
+            {% if page.url == "/" %}
+            <li class="nav-item active" aria-current="page" >
+            {% else %}
             <li class="nav-item">
+            {% endif %}
             <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
             </li>
 
+            {% if page.url == "/" %}
+            <li class="nav-item active" aria-current="page" >
+            {% else %}
             <li class="nav-item">
+            {% endif %}
             <a class="nav-link" href="{{ site.baseurl }}/resume">Resume</a>
             </li>
 
