@@ -16,6 +16,8 @@
 
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
+<link href="{{ site.baseurl }}/assets/css/bespoke.css" rel="stylesheet">
+
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
 </head>
@@ -43,60 +45,45 @@ ga('send', 'pageview');
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            {% if page.url == "/" %}
+            <li class="nav-item active">
+            {% else %}
+            <li class="nav-item">
+            {% endif %}
+            <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
+            </li>
 
-    <div class="container pr-0">
+            <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+            </li>
 
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
-    <!-- End Logo -->
+            <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+            </li>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+            <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}/resume">Resume</a>
+            </li>
 
-    <div class="collapse navbar-collapse" id="navbarMediumish">
-
-        <!-- Begin Menu -->
-
-            <ul class="navbar-nav ml-auto">
-
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/resume">Resume</a>
-                </li>
-
-                <!--
-                <i class="fab fa-wordpress-simple"></i>
-                <i class="fab fa-snapchat-ghost"></i>
-                <i class="fab fa-github"></i>
-                -->
-
-                {% include search-lunr.html %}
-
-            </ul>
-
-        <!-- End Menu -->
-
+            <!--
+            <i class="fab fa-wordpress-simple"></i>
+            <i class="fab fa-snapchat-ghost"></i>
+            <i class="fab fa-github"></i>
+            -->
+        </ul>
+        {% include search-lunr.html %}
+      </div>
     </div>
-
-    </div>
-</nav>
+  </nav>
 <!-- End Navigation
 ================================================== -->
 
@@ -107,11 +94,15 @@ ga('send', 'pageview');
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
-    <h1 class="sitetitle">{{ site.title }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div class="col-lg-6 px-0">
+            <h1 class="display-4 sitetitle">{{ site.title }}</h1>
+            <p class="lead my-3">{{ site.description }}</p>
+            <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">About Me</a></p>
+        </div>
+    </div>
 </div>
+
 
 <!-- Categories Jumbotron
 ================================================== -->
@@ -190,6 +181,8 @@ ga('send', 'pageview');
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
+
+<script src="{{ site.baseurl }}/assets/js/bespoke.js"></script>
 
 {% if site.lazyimages == "enabled" %}
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
