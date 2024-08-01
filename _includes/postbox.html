@@ -1,38 +1,44 @@
 <!-- begin post -->
-<div class="row card g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-white">
-    <div class="col-sm-8 card-body p-4 flex-column position-static">
-      <h3 class="card-title mb-0">
-        <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </h3>
-      <p class="card-text mb-auto">{{ post.excerpt | strip_html | truncatewords:30 }}</p>
-      <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-        Continue reading <i class="fab fa-chevron-right"></i>
-      </a>
-      <div class="card-footer b-0 bg-white mt-auto">
-        <div class="mb-1 text-body-secondary">{{ post.date | date_to_string }}</div><br/>
-            {% assign sortedCategories = post.categories | sort %}
-            {% for category in sortedCategories %}
-                <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">
-                    <span class="badge p-2 m-2 align-items-center text-bg-primary rounded-pill">
-                        <span class="px-1">{{ category | camelcase }}</span>
-                    </span>
-                </a>
-            {% endfor %}
-        </div>
-    </div>
-    <div class="col-sm-4 d-none d-lg-block">
-        <div class="">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-                {% if post.image %}
-                    {% if site.lazyimages == "enabled" %}
-                        <img class="img-fluid lazyimg rounded mx-auto d-block" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
-                    {% else %}
-                        <img class="img-fluid rounded mx-auto d-block" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"> 
-                    {% endif %}
+<div class="row h-100 bg-white">
+    <div class="col-12 col-md-12 col-lg-7">
+        <div class="h-100 card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">
+                        <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </h2>
 
-                {% endif %}
-            </a>
+                    <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
+                </div>
+                <div class="card-footer b-0 bg-white mt-auto">
+                    <div class="wrapfooter">
+                        <span class="post-date">{{ post.date | date_to_string }}</span>
+                        {% assign sortedCategories = post.categories | sort %}
+                        {% for category in sortedCategories %}
+                            <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">
+                                <span class="badge p-2 m-2 align-items-center text-bg-primary rounded-pill">
+                                    <span class="px-1">{{ category | camelcase }}</span>
+                                </span>
+                            </a>
+                        {% endfor %}
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
+    <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
+        <div class="h-100">
+            <div class="wrapthumbnail">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    {% if site.lazyimages == "enabled" %}
+                    <img class="img-fluid lazyimg rounded mx-auto"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+                    {% else %}
+                    <img class="img-fluid rounded mx-auto" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+                    {% endif %}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- end post -->
