@@ -35,8 +35,8 @@
 <!-- end post -->
 
 <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-    <div class="col-xs-8 p-4 d-flex flex-column position-static">
-      <span class="badge p-2 m-2 align-items-center text-bg-primary rounded-pill"><span class="px-1">{{ category | camelcase }}</span></span>
+    <div class="col-sm-8 p-4 d-flex flex-column position-static">
+      
       <h3 class="mb-0">
         <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h3>
@@ -46,8 +46,17 @@
         Continue reading
         <svg class="bi"><use xlink:href="#chevron-right"/></svg>
       </a>
+      {% assign sortedCategories = post.categories | sort %}
+        {% for category in sortedCategories %}
+            <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">
+                <span class="badge p-2 m-2 align-items-center text-bg-primary rounded-pill">
+                    <span class="px-1">{{ category | camelcase }}</span>
+                </span>
+            </a>
+        {% endfor %}
+
     </div>
-    <div class="col-xs-4 d-none d-lg-block">
+    <div class="col-sm-4 d-none d-lg-block">
         <div class="">
             <a href="{{ site.baseurl }}{{ post.url }}">
                 {% if post.image %}
