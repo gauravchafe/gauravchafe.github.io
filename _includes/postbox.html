@@ -1,16 +1,16 @@
 <!-- begin post -->
-<div class="row g-0 p-4 h-100 border-bottom bg-white">
+<div class="row g-0 p-4 mb-2 h-100 border-bottom bg-white">
     <div class="col-sm-8 col-lg-7">
         <div class="h-100 card-group">
             <div class="card border border-0">
-                <div class="card-body">
+                <div class="card-body px-0">
                     <h2 class="card-title">
                         <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                     </h2>
 
                     <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
                 </div>
-                <div class="card-footer b-0 bg-white mt-auto">
+                <div class="card-footer b-0 px-0 bg-white mt-auto">
                     <div class="wrapfooter">
                         <span class="post-date">{{ post.date | date_to_string }}</span>
                         {% assign sortedCategories = post.categories | sort %}
