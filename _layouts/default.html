@@ -53,6 +53,7 @@ ga('send', 'pageview');
       </button>
   
       <div class="navbar-collapse offcanvas-collapse bg-light" id="mainNavbar">
+        {% include search-lunr.html %}
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mb-2 mb-lg-0">
             {% if page.url == "/" %}
             <li class="nav-item active" aria-current="page" >
@@ -92,7 +93,7 @@ ga('send', 'pageview');
             <i class="fab fa-github"></i>
             -->
         </ul>
-        {% include search-lunr.html %}
+        
       </div>
     </div>
   </nav>
@@ -148,8 +149,8 @@ ga('send', 'pageview');
             <div class="mainheading">
                 <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-white">
                     <div class="col-lg-6 px-0">
-                        <h1 class="display-4 sitetitle">{{ site.title }}</h1>
-                        <p class="lead my-3">{{ site.description }}</p>
+                        <h2 class="display-6 sitetitle">{{ site.title }}</h2>
+                        <p class="lead">{{ site.description }}</p>
                         <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">About Me</a></p>
                     </div>
                 </div>
