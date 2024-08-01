@@ -3,16 +3,11 @@ layout: home
 title: Home
 ---
 
-
+{% if page.url == "/" %}
 
 <!-- Featured
 ================================================== -->
-<!--
-{% if page.url == "/" %}
 <section class="featured-posts">
-    <div class="section-title">
-        <h2 class="display-6"><span>Featured Posts</span></h2>
-    </div>
     <div class="row">
 
     {% for post in site.posts %}
@@ -29,12 +24,10 @@ title: Home
 </section>
 
 {% endif %}
--->
 
 <!-- Posts Index
 ================================================== -->
 <section class="recent-posts">
-
     <div class="row listrecent bg-white">
 
         {% for post in paginator.posts %}
@@ -44,7 +37,6 @@ title: Home
         {% endfor %}
 
     </div>
-
 </section>
 
 <!-- Pagination
