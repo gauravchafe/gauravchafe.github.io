@@ -42,8 +42,7 @@
       <div class="mb-1 text-body-secondary">{{ post.date | date_to_string }}</div>
       <p class="card-text mb-auto">{{ post.excerpt | strip_html | truncatewords:30 }}</p>
       <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-        Continue reading
-        <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+        Continue reading <i class="fab fa-chevron-right"></i>
       </a>
       {% assign sortedCategories = post.categories | sort %}
         {% for category in sortedCategories %}
