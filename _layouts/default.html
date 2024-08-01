@@ -101,23 +101,9 @@ ga('send', 'pageview');
 
 <div class="site-content mt-0">
 
-<div class="container">
+<div class="container-fluid">
 
 {% if page.url == "/" %}
-<!-- Site Title
-================================================== -->
-<div class="mainheading">
-    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-white">
-        <div class="col-lg-6 px-0">
-            <h1 class="display-4 sitetitle">{{ site.title }}</h1>
-            <p class="lead my-3">{{ site.description }}</p>
-            <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">About Me</a></p>
-        </div>
-    </div>
-</div>
-{% endif %}
-
-{% if page.url == "/" OR page.url == "/categories" %}
 <!-- Categories Jumbotron
 ================================================== -->
 <div class="fortags h-100">
@@ -144,15 +130,39 @@ ga('send', 'pageview');
 </div>
 {% endif %}
 
-<!-- Content
-================================================== -->
-<div class="main-content">
-    {{ content }}
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <!-- Content
+            ================================================== -->
+            <div class="main-content">
+                {{ content }}
+            </div>
+        </div>
+        <div class="col-md-4">
+            {% if page.url == "/" %}
+            <!-- Site Title
+            ================================================== -->
+            <div class="mainheading">
+                <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-white">
+                    <div class="col-lg-6 px-0">
+                        <h1 class="display-4 sitetitle">{{ site.title }}</h1>
+                        <p class="lead my-3">{{ site.description }}</p>
+                        <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">About Me</a></p>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
 
 {% if site.mailchimp-list %}
 <!-- Bottom Alert Bar
 ================================================== -->
+<!--
 <div class="alertbar">
 	<div class="container text-center">
 		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
@@ -165,7 +175,7 @@ ga('send', 'pageview');
 	</div>
 </div>
 {% endif %}
-    
+ -->   
 </div>
 
 <!-- Begin Footer
