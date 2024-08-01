@@ -35,7 +35,13 @@
 <!-- end post -->
 
 <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-    <div class="col p-4 d-flex flex-column position-static">
+    <div class="col-xs-8 p-4 d-flex flex-column position-static">
+        {% assign sortedCategories = page.categories | sort %}
+        {% for category in sortedCategories %}
+        <li>
+            <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}"><span class="badge p-2 m-2 align-items-center text-bg-primary rounded-pill"><span class="px-1">{{ category }}</span></span></a>
+        </li>
+        {% endfor %}
       <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
       <h3 class="mb-0">
         <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -47,15 +53,14 @@
         <svg class="bi"><use xlink:href="#chevron-right"/></svg>
       </a>
     </div>
-    <div class="col-auto d-none d-lg-block">
-        <div class="maxthumb">
+    <div class="col-xs-4 d-none d-lg-block">
+        <div class="">
             <a href="{{ site.baseurl }}{{ post.url }}">
                 {% if post.image %}
-
                     {% if site.lazyimages == "enabled" %}
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
+                        <img class="img-fluid lazyimg rounded mx-auto d-block" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
                     {% else %}
-                        <img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"> 
+                        <img class="img-fluid rounded mx-auto d-block" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"> 
                     {% endif %}
 
                 {% endif %}
