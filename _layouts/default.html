@@ -103,6 +103,7 @@ ga('send', 'pageview');
 
 <div class="container">
 
+{% if page.url == "/" %}
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
@@ -114,8 +115,9 @@ ga('send', 'pageview');
         </div>
     </div>
 </div>
+{% endif %}
 
-
+{% if page.url == "/" %}
 <!-- Categories Jumbotron
 ================================================== -->
 <div class="fortags h-100">
@@ -129,18 +131,18 @@ ga('send', 'pageview');
             {% assign categories_list = site.categories %}
             {% if categories_list.first[0] == null %}
                 {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}"><span class="badge p-2 align-items-center text-bg-primary rounded-pill"><span class="px-1">{{ category | camelcase }} ({{ site.tags[category].size }})</span></span></a>
+                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}"><span class="badge p-2 m-2 align-items-center text-bg-primary rounded-pill"><span class="px-1">{{ category | camelcase }} ({{ site.tags[category].size }})</span></span></a>
                 {% endfor %}
             {% else %}
                 {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}"><span class="badge p-2 align-items-center text-bg-primary rounded-pill"><span class="px-1">{{ category[0] | camelcase }} ({{ category[1].size }})</span></span></a>
+                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}"><span class="badge p-2 m-2 align-items-center text-bg-primary rounded-pill"><span class="px-1">{{ category[0] | camelcase }} ({{ category[1].size }})</span></span></a>
                 {% endfor %}
             {% endif %}
             {% assign categories_list = nil %}
 		</div>
 	</div>
 </div>
-
+{% endif %}
 
 <!-- Content
 ================================================== -->
