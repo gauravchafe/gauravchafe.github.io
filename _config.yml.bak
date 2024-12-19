@@ -24,7 +24,7 @@ nav_exclude:                                    # The following paths are exclud
 ### Author Info ###
 author:
   name              : Gaurav Chafe
-  image             : https://github.com/gauravchafe/gauravchafe.github.io/blob/main/assets/images/gauravchafe.jpg
+  image             : https://gauravchafe.github.io/assets/images/gauravchafe.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
