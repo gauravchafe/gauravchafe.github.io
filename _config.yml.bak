@@ -1,13 +1,13 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Gaurav Chafe
 description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "/portfolYOU"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : yousinix/portfolYOU
-open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+baseurl             : "/gauravchafe"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : gauravchafe/gauravchafe   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : yousinix/portfolYOU@v2.3.0
+open_new_tab        : false                     # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
@@ -16,18 +16,18 @@ plugins:
 
 
 ### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+nav_exclude:                                    # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
+  - documentation/partials/**                   # For Documentation Only
 
 
 ### Author Info ###
 author:
-  name              : John Doe
+  name              : Gaurav Chafe
   image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+#  behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
   facebook          : your_username
@@ -36,7 +36,7 @@ author:
 # instagram         : your_username
 # kaggle            : your_username
   linkedin          : your_username
-  medium            : your_username
+# medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
@@ -70,7 +70,7 @@ disqus:
 analytics:
   enabled: false                                        # Set true to enable analytics
   google:
-    tracking_id: your-google-tracking-id
+    tracking_id: G-KC14MRF3NG
 
 
 ### Buy me a coffee ###
