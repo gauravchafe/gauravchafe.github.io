@@ -5,9 +5,18 @@
       <!-- Fine Circle Responsive Image -->
       <div id="container" class="my-2">
         <div id="dummy"></div>
-        <div id="element">
-          <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+        <div class="row">
+          <div class="col-lg-3">
+            <div id="element">
+              <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <h1 class="site-header">{{ site.title }}</h1>
+            <h3 class="site-subheader">Salesforce Marketing Cloud Consultant</h3>
+          </div>
         </div>
+        
       </div>
 
       <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
