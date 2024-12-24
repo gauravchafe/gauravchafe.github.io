@@ -1,7 +1,7 @@
 <div class="row gx-5 p-4">
-  <div class="col-lg-8 text-left mt-4">
-    <div class="card">
-      <div class="row">
+  <div class="col-lg-8 text-left">
+    <div class="card border-0">
+      <div class="row p-4">
         <div class="col-lg-4">
           <div id="element-pfp">
             <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
@@ -10,7 +10,7 @@
         <div class="col-lg-8">
           <h1 class="site-header">{{ site.title }}</h1>
           <h3 class="site-subheader text-muted">Salesforce Marketing Cloud Consultant</h3>
-          {% include social.html %}
+          <h6 class="site-socialicons">{% include social.html %}</h6>
         </div>
       </div>
       <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
@@ -19,12 +19,12 @@
     
 
   </div>
-  <div class="col-lg-4 text-center mt-4">
-    <div class="card">
+  <div class="col-lg-4 text-center">
+    <div class="card border-0">
       <div class="card-body p-0">
         <h5 class="card-title mt-4">Trailhead</h5>
         <img src="https://res.cloudinary.com/trailhead/image/upload/public-trailhead/assets/images/ranks/double-star-ranger.png"  alt="Trailhead Rank">
-        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text text-muted p-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <div class="card-footer bg-white text-center">
           <a href="https://www.salesforce.com/trailblazer/gauravchafe" class="card-link">Go to Trailhead</a>
         </div>
