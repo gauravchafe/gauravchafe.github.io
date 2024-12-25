@@ -1,3 +1,13 @@
+[data-theme="light"] body {
+  background-color: #f5f5f5;
+  color: #212529;
+}
+
+[data-theme="dark"] body {
+  background-color: #111111;
+  color: rgba(255,255,255,0.9);
+}
+
 .site-header{
     font-size: 2rem;
 }
