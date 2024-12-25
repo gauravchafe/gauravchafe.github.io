@@ -13,9 +13,11 @@
   </head>
 
   <body class="h-100 d-flex flex-column">
-
-    <main class="flex-shrink-0 container-fluid px-0 bg-body-tertiary">
+    <header>
       {% include navbar.html %}
+    </header>
+    <main class="flex-shrink-0 container-fluid px-0 bg-body-tertiary">
+      
       <div class="container">
         {{ content }}
       </div>
