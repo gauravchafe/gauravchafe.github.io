@@ -1,25 +1,39 @@
 <div class="row gx-5" style="transform: translateY(-4rem);">
   <div class="col-md-8 text-left">
-    <div class="card border-0 p-4 bg-body">
-      <div class="row p-4">
-        <div class="col-sm-4">
-          <div id="element-pfp" style="margin-top: -5rem;">
-            <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+    <div class="card border-0 bg-body">
+      <div class="card-body p-0">
+        <h5 class="card-title mt-4">What's New?</h5>
+        <div class="row p-4">
+          <div class="col-sm-12" style="margin-top: -1.5rem;">
+            <h1 class="site-header">{{ site.title }}</h1>
+            <h2 class="site-subheader text-muted">{{ site.subtitle }}</h2>
+            <h4 class="site-socialicons">{% include social.html %}</h4>
           </div>
         </div>
-        <div class="col-sm-8" style="margin-top: -1.5rem;">
-          <h1 class="site-header">{{ site.title }}</h1>
-          <h2 class="site-subheader text-muted">{{ site.subtitle }}</h2>
-          <h4 class="site-socialicons">{% include social.html %}</h4>
-        </div>
       </div>
-      <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
     </div>
-
-    
-
   </div>
   <div class="col-md-4 text-center">
+    <div class="card border-0 p-4 mb-4 bg-body">
+      <div class="card-body">
+        <div class="row p-4">
+          <div class="col-sm-12">
+            <div id="element-pfp" style="margin-top: -5rem;">
+              <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+            </div>
+          </div>
+          <div class="col-sm-12" style="margin-top: -1.5rem;">
+            <h1 class="site-header">{{ site.title }}</h1>
+            <h2 class="site-subheader text-muted">{{ site.subtitle }}</h2>
+            <h4 class="site-socialicons">{% include social.html %}</h4>
+          </div>
+        </div>
+        <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
+        </div>
+      <div class="card-footer text-center">
+        <a href="https://www.salesforce.com/trailblazer/gauravchafe" class="card-link">Get in Touch</a>
+      </div>
+    </div>
     <div class="card border-0 bg-body">
       <div class="card-body p-0">
         <h5 class="card-title mt-4">Trailhead</h5>
