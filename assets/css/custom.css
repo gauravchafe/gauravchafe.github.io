@@ -8,6 +8,10 @@
   color: rgba(255,255,255,0.9);
 }
 
+.navbar-brand h5{
+    font-size: 1.75rem;
+}
+
 .site-header{
     font-size: 2rem;
 }
@@ -18,4 +22,13 @@
 
 .card{
     border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0px -1px;
+}
+
+.card-title{
+    font-size: 2rem;
+}
+
+.card-footer{
+    background-color: transparent;
 }
