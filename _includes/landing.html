@@ -3,14 +3,14 @@
     <div class="card border-0 p-4 rounded-5">
       <div class="row p-4">
         <div class="col-sm-4">
-          <div id="element-pfp" style="transform: translateY(-4rem);">
+          <div id="element-pfp" style="margin-top: -5rem;">
             <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
           </div>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-8" style="margin-top: -1.5rem;">
           <h1 class="site-header">{{ site.title }}</h1>
           <h3 class="site-subheader text-muted">{{ site.subtitle }}</h3>
-          <h6 class="site-socialicons">{% include social.html %}</h6>
+          <h4 class="site-socialicons">{% include social.html %}</h4>
         </div>
       </div>
       <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
