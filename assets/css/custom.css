@@ -8,12 +8,12 @@
   color: rgba(255,255,255,0.9);
 }
 
-[data-theme="light"] nav {
+[data-theme="light"] nav.navbar-themed {
   background-color: #fff;
   color: #212529;
 }
 
-[data-theme="dark"] nav {
+[data-theme="dark"] nav.navbar-themed {
   background-color: #242526;
   color: rgba(255,255,255,0.9);
 }
