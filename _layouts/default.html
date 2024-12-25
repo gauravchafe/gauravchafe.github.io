@@ -8,24 +8,26 @@
 
 <html lang="en" class="h-100">
 
-{% include head.html %}
+  <head>
+    {% include head.html %}
+  </head>
 
-<body class="h-100 d-flex flex-column">
+  <body class="h-100 d-flex flex-column">
 
-  <main class="flex-shrink-0 container-fluid px-0 bg-body-secondary">
-    {% include navbar.html %}
-    <div class="container">
-      {{ content }}
-    </div>
-  </main>
-  {% include footer.html %}
+    <main class="flex-shrink-0 container-fluid px-0">
+      {% include navbar.html %}
+      <div class="container">
+        {{ content }}
+      </div>
+    </main>
+    {% include footer.html %}
 
-  {% include analytics.html %}
-  {% include scripts.html %}
+    {% include analytics.html %}
+    {% include scripts.html %}
 
-  {%- if site.buymeacoffee.enabled == true -%}
-    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="{{ site.buymeacoffee.username }}" data-description="{{ site.buymeacoffee.description }}" data-message="{{ site.buymeacoffee.message }}" data-color="{{ site.buymeacoffee.color }}" data-position="Right" data-x_margin="16" data-y_margin="16"></script>
-  {%- endif -%}
-</body>
+    {%- if site.buymeacoffee.enabled == true -%}
+      <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="{{ site.buymeacoffee.username }}" data-description="{{ site.buymeacoffee.description }}" data-message="{{ site.buymeacoffee.message }}" data-color="{{ site.buymeacoffee.color }}" data-position="Right" data-x_margin="16" data-y_margin="16"></script>
+    {%- endif -%}
+  </body>
 
 </html>
