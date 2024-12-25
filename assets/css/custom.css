@@ -8,6 +8,16 @@
   color: rgba(255,255,255,0.9);
 }
 
+[data-theme="light"] nav {
+  background-color: #fff;
+  color: #212529;
+}
+
+[data-theme="dark"] nav {
+  background-color: #242526;
+  color: rgba(255,255,255,0.9);
+}
+
 .navbar-brand h5{
     font-size: 1.75rem;
 }
