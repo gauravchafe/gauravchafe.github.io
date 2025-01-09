@@ -25,7 +25,30 @@
       {%- assign external    = false -%}
     {%- endif -%}
 
-    {% include projects/project-card.html %}
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img id="{{project_id}}-img" src="{{ project_img }}" class="img-fluid rounded-start" alt="{{ project_name }}">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 id="{{project_id}}-name" class="card-title">
+            {%- if project_type == "remote" -%}
+              <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;
+              {%- endif -%}
+            {{ project_name }}
+            </h5>
+            <p id="{{project_id}}-desc" class="card-text">{{ project_desc }}</p>
+            <p id="{{project_id}}-tools" class="card-text">
+              {%- for tool in project_tools -%}
+              <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
+              {%- endfor -%}
+            </p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
   {% endfor %}
 
