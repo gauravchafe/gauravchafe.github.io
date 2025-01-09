@@ -5,7 +5,7 @@
         <h5 class="card-title">Good Evening!</h5>
       </div>
     </div>
-    <div class="card-columns m-3 mt-5">
+    <div class="mb-4">
 
   <!-- Local Projects -->
   {% for project in site.projects %}
@@ -25,7 +25,7 @@
       {%- assign external    = false -%}
     {%- endif -%}
 
-    <div class="card mb-3" style="max-width: 540px;">
+    <div class="card mb-3">
       <div class="row g-0">
         <div class="col-md-4">
           <img id="{{project_id}}-img" src="{{ project_img }}" class="img-fluid rounded-start" alt="{{ project_name }}">
