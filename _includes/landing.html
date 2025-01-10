@@ -3,9 +3,11 @@
     <div class="card border-0 mb-4 bg-body">
       <div class="card-body">
         <h5 class="card-title">Hello, You</h5>
-        <h5 class="card-title">What would you like to read today?</h5>
+        <h6 class="card-title">What would you like to read today?</h6>
         {% include blog/search.html %}
-        {% include blog/tags.html %}
+        <div class="card-tags">Try: 
+          <span class="badge badge-primary">SFMC</span> <span class="badge badge-primary">Salesforce</span> <span class="badge badge-primary">Pardot</span>
+        </div>
       </div>
     </div>
     <div class="mb-4">
