@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>Gaurav Chafe - Salesforce and Marketing Cloud Consultant</title>
+	<title>Shine - FREE Bootstrap 5 Resume/CV Template For Developers</title>
 	
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Salesforce and Marketing Cloud Consultant">
-	<meta name="author" content="Gaurav Chafe">    
+	<meta name="description" content="Profolio Bootstrap 5 Template">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
 	<link rel="shortcut icon" href="favicon.ico"> 
 	
 	<!-- Google Fonts -->	
@@ -36,7 +36,7 @@
 					<div class="top-bar text-center position-relative">
 						<div class="top-bar-inner">
 							
-							<a class="btn btn-primary top-bar-cta" href="#">Hire Me</a>
+							<a class="btn btn-primary top-bar-cta" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/shine-free-bootstrap-5-light-mode-resume-cv-template-for-developers/">Hire Me</a>
 					
 							<ul class="social-list list-inline mx-auto">
 								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="#"><i class="fa-brands fa-x-twitter fa-fw"></i></a></li>
@@ -57,8 +57,8 @@
 							<div class="resume-profile-holder text-center">
 								<img class="resume-profile-pic rounded-circle" src="assets/images/profile.png" alt="image">
 								
-								<h2 class="resume-name text-uppercase">Gaurav Chafe</h2>
-								<div class="resume-role-title text-uppercase">Salesforce and Marketing Cloud Consultant</div>
+								<h2 class="resume-name text-uppercase">Daniel Lopez </h2>
+								<div class="resume-role-title text-uppercase">Senior App Developer</div>
 								<div class="resume-contact mt-4">
 									<ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
 										<li class="list-inline-item me-md-3 me-lg-5"><i class="resume-contact-icon bi bi-telephone-inbound me-2"></i> +123-4567890</li>
@@ -89,10 +89,10 @@
 											    <div class="resume-timeline-item-header mb-2">
 												    
 												    <div class="resume-position-meta d-flex justify-content-between mb-1">
-													    <div class="resume-position-time">2022 - Present</div>
-													    <div class="resume-company-name">EPAM Systems</div>
+													    <div class="resume-position-time">2024 - Present</div>
+													    <div class="resume-company-name">Google</div>
 												    </div>
-											        <h3 class="resume-position-title mb-1">Senior Software Engineer/h3>
+											        <h3 class="resume-position-title mb-1">Tech Lead</h3>
 
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
