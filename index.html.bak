@@ -286,13 +286,12 @@
 	
 	<footer class="footer text-center py-4">
 		<ul class="social-list list-inline mx-auto">
-			<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="#" target="_blank"><i class="fa-brands fa-x-twitter fa-fw"></i></a></li>
-			<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://github.com/gauravchafe" target="_blank"><i class="fa-brands fa-github fa-fw"></i></a></li>
+			<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://x.com/gauravchafe" target="_blank"><i class="fa-brands fa-x-twitter fa-fw"></i></a></li>
 			<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://www.linkedin.com/in/gauravchafe/" target="_blank"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
-			<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="#" target="_blank"><i class="fa-brands fa-stack-overflow fa-fw"></i></a></li>
+			<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://github.com/gauravchafe" target="_blank"><i class="fa-brands fa-github fa-fw"></i></a></li>
 		</ul><!--//social-list-->
-		<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-		<small class="copyright">Designed with <span class="sr-only">love</span><i class="bi bi-heart-fill" style="color:#fe655c"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+		
+		<small class="copyright">Designed with <span class="sr-only">love</span><i class="bi bi-heart-fill" style="color:#fe655c"></i> by <a class="theme-link" href="#" target="_blank">Gaurav Chafe</a></small>
 	</footer>
 
 </body>
