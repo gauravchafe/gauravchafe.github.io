@@ -149,8 +149,19 @@
 									<section class="resume-skills-section resume-section">
 										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-award me-2"></i>Certifications</h3>
 										
-										<img src="" >
-										
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_MC-Personalization.png" alt="MC Personalization Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_SF-Certified_MC-Engagement-Consultant.png" alt="SF Certified MC Engagement Consultant">
+										<img class="certification-logo mb-2" src="assets/images/Badge_SF-Certified_Platform-Foundations.png" alt="SF Certified Platform Foundations Badge">
+										<img class="certification-logo mb-2" src="assets/images/Badge_SF-Certified_AI-Associate.png" alt="SF Certified AI Associate Badge">
 
 							        </ul>
 										
