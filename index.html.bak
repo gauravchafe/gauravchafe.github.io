@@ -27,7 +27,7 @@
 </head> 
 
 
-<body class="light-mode">
+<body class="light-mode" style="background-image: url('https://ui.trailhead.com/career-components/v2.0.1/assets/9cfb5f76a28d343e.png'); background-repeat: no-repeat; background-size: contain;">
 
 	<div class="container-fluid">
 
