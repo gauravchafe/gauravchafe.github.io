@@ -51,7 +51,7 @@
 								<img class="resume-profile-pic rounded-circle" src="assets/images/profile.png" alt="image">
 								
 								<h2 class="resume-name text-uppercase">Gaurav Chafe</h2>
-								<div class="resume-role-title text-uppercase">Salesforce and Marketing Cloud Consultant | 13x Certified | Delivering Targeted Campaigns and Personalized Experiences with Marketing Cloud, Pardot, Data Cloud, Salesforce and Agentforce</div>
+								<div class="resume-role-title">Salesforce and Marketing Cloud Consultant | 13x Certified | Delivering Targeted Campaigns and Personalized Experiences with Marketing Cloud, Pardot, Data Cloud, Salesforce and Agentforce</div>
 								<div class="resume-contact mt-4">
 									<ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
 										<li class="list-inline-item me-md-3 me-lg-5"><i class="resume-contact-icon bi bi-telephone-inbound me-2"></i> +123-4567890</li>
@@ -89,7 +89,7 @@
 													    <div class="resume-position-time">Dec 2021 - Present</div>
 													    <div class="resume-company-name">EPAM Systems</div>
 												    </div>
-											        <h3 class="resume-position-title mb-1">Senior Software Engineer/h3>
+											        <h3 class="resume-position-title mb-1">Senior Software Engineer</h3>
 
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
@@ -208,11 +208,8 @@
 										<ul class="list-inline">
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">Leadership</span></li>
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">Project Management</span></li>
-								            
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">DevOps</span></li>
-								            <li class="list-inline-item"><span class="badge resume-skill-badge">Public Speaking</span></li>
-								            
-								            				           
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Public Speaking</span></li>				           
 							            </ul>
 									</section><!--//resume-section-->
 									
@@ -272,21 +269,6 @@
 											        <div class="col"><span class="item item-full"></span></div>
 											        <div class="col"><span class="item item-full"></span></div>
 											        <div class="col"><span class="item item-half"></span></div>
-										        </div><!--//resume-level-indicator-->
-										    </li>
-										     <li class="mb-2">
-										        <div class="resume-lang-name">Spanish</div>
-										        <div class="resume-level-indicator row gx-0 flex-nowrap">
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-half"></span></div>
-											        <div class="col"><span class="item"></span></div>
 										        </div><!--//resume-level-indicator-->
 										    </li>
 										</ul>
