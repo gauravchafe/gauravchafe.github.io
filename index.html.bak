@@ -42,7 +42,7 @@
 					<div class="resume-wrapper mx-auto rounded-2">
 						<div class="resume-header px-4 px-lg-5">
 							<div class="resume-profile-holder text-center">
-								<img class="resume-profile-pic rounded-circle" src="assets/images/profile.png" alt="image">
+								<img class="resume-profile-pic rounded-circle" src="https://media.licdn.com/dms/image/v2/C4E03AQEOVFV4PrUcSw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1626438023866?e=1769644800&v=beta&t=s1YIlg_8HcK6d68j3u7DR9sloAN22gloci6nC3_wv9s" alt="image">
 								
 								<h2 class="resume-name text-uppercase">Gaurav Chafe</h2>
 								<div class="resume-role-title">Salesforce and Marketing Cloud Consultant | 13x Certified | Delivering Targeted Campaigns and Personalized Experiences with Marketing Cloud, Pardot, Data Cloud, Salesforce and Agentforce</div>
@@ -199,7 +199,7 @@
 										<ul class="list-inline">
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">Leadership</span></li>
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">Project Management</span></li>
-								            <li class="list-inline-item"><span class="badge resume-skill-badge">DevOps</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Pre-sales</span></li>
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">Public Speaking</span></li>				           
 							            </ul>
 									</section><!--//resume-section-->
@@ -230,14 +230,19 @@
 										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-book me-2"></i>Education</h3>
 										<ul class="list-unstyled">
 										    <li class="mb-2">
-										        <div class="resume-degree font-weight-bold">MSc in Computer Science</div>
-										        <div class="resume-degree-org">Oxford University</div>
-										        <div class="resume-degree-time">2016 - 2017</div>
+										        <div class="resume-degree font-weight-bold">MBA Marketing</div>
+										        <div class="resume-degree-org">AES's Institute of Management & Research, Pune</div>
+										        <div class="resume-degree-time">2014 - 2015</div>
 										    </li>
-										    <li>
-										        <div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
-										        <div class="resume-degree-org">University of California, Berkeley</div>
-										        <div class="resume-degree-time">2012 - 2016</div>
+										    <li class="mb-2">
+										        <div class="resume-degree font-weight-bold">MBA International Business</div>
+										        <div class="resume-degree-org">AES's Institute of Management & Research, Pune</div>
+										        <div class="resume-degree-time">2011 - 2013</div>
+										    </li>
+											<li>
+										        <div class="resume-degree font-weight-bold">BE Computer Science</div>
+										        <div class="resume-degree-org">STES's Smt. Kashibai Navale College of Engineering, Pune</div>
+										        <div class="resume-degree-time">2007 - 2011</div>
 										    </li>
 									    </ul>
 									</section><!--//resume-section-->
